@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import "./App.css";
+import TopGitHubUsers from "./TopGitHubUsers";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,6 +13,7 @@ function App() {
 
   return (
     <>
+    <TopGitHubUsers/>
       <div></div>
       <h1>Use Effect Example</h1>
       <div className="card">
